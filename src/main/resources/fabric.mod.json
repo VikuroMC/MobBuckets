@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mobbuckets",
+  "version": "${version}",
+  "name": "MobBuckets",
+  "description": "Server-side Mob Buckets mod.",
+  "authors": [
+    "Vikuro"
+  ],
+  "contact": {},
+  "license": "ARR",
+  "environment": "*",
+  "mixins": [
+    "mobbuckets.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "org.Vikuro.mobbuckets.MobBuckets"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
