@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/bucket",
+  "gui_light": "front",
+  "textures": {
+        "layer0": "mobbuckets:item/generic_bucket"
+  }
+}

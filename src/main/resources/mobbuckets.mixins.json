@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.Vikuro.mobbuckets.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ServerPlayerEntityMixin",
+    "EnderDragonFightAccessor",
+    "EnderDragonFightMixin",
+    "EnderDragonPartAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
